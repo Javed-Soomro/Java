@@ -1,0 +1,22 @@
+// Program 2 - Sum of Two Numbers
+import java.util.Scanner;
+
+public class SumTwoNumbers {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Input first number
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+
+        // Input second number
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+
+        // Calculate sum
+        int sum = a + b;
+
+        // Output result
+        System.out.println("Sum = " + sum);
+    }
+}
